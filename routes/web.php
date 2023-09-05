@@ -9,4 +9,5 @@ Route::get('/', function () {
 });
 
 Route::get('/consulta-cep', [CepController::class, 'index']);
+Route::post('/consulta-cep', [ViaCepController::class, 'buscarCEP']);
 
