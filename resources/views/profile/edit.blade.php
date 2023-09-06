@@ -15,7 +15,7 @@
                 @if(Auth::user()->image)
                 <img class="profile-image" src="{{ url('storage/' . Auth::user()->image) }}" alt="Foto de Perfil Atual">
                 @else
-                <img class="profile-image" src="{{ asset('img/default-profile.jpg') }}" alt="Foto de Perfil Padrão">
+                <img class="profile-image" src="{{ asset('img/default-profile.png') }}" alt="Foto de Perfil Padrão">
                 @endif
                 <input type="file" name="profile_photo" id="profile_photo" value="{{ old('image', auth()->user()->image) }}">
             </div>
