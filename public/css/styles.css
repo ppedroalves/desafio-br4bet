@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-image-container {
+    text-align: center;
+}
+
+
+
+.profile-image {
+    margin: 0 auto;
+    width: 100px; 
+    height: 100px;
+    border-radius: 40%; 
+    border: 2px solid #fff; 
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-profile-button {
+    background-color: #28a745; 
+    color: #fff; 
+    padding: 5px 10px;
+    border: none; 
+    border-radius: 3px; 
+    text-decoration: none; 
+}
+
+.edit-profile-button:hover {
+    background-color: #218838;
+    color: #fff; 
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+    background-color: #f0f0f0;
+}
+
+.centered-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.user-info p {
+    margin: 0;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+#cep {
+    width: 150px;
+}
+
+h1 {
+    color: #333;
+}
+
+
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+.auth-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.auth-section p {
+    margin: 0;
+}
+
+.auth-section button {
+    background-color: #dc3545;
+}
+
+.auth-section button:hover {
+    background-color: #c82333;
+}
+
+
+
+
